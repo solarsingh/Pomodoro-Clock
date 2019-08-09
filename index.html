@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+    <h1 id="heading">POMODORO CLOCK</h1>
+
+    <div class="input">
+        <div class="session">
+            <h3>Session</h3>            
+            <button class="increase">INC</button>
+            <p id="session">25</p>
+            <button class="decrease">Dec</button>
+        </div>
+
+        <div class="break">
+            <h3>Break</h3>            
+            <button class="increase">INC</button>
+            <p id="break">5</p>
+            <button class="decrease">Dec</button>
+        </div>
+    </div>
+
+    <div class="terminal">
+        <div class="pause_play">
+            <button id="pause">Pause</button>
+            <button id="play">Start</button>
+        </div>
+
+        <div class="show_time">
+            <p id="label">Should we begin?!</p>
+            <p id="show">00:00</p>
+        </div>
+
+        <div class="reset_resume">
+            <button id="resume">Resume</button>
+            <button id="reset">Reset</button>    
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
